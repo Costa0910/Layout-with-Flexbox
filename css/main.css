@@ -1,0 +1,166 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    padding-left: 10px;
+    margin: auto 0;
+}
+
+.navigation {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    margin: auto 0;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+a {
+    color: seashell;
+}
+
+main {
+    margin: 0 20px;
+    padding: 18px;
+    margin-top: 52px;
+}
+
+#mission {
+    background-image: url('../images/mission-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.ourmission {
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    margin: 24% 0;
+    height: 19%;
+}
+
+#featured {
+    width: 80%;
+    margin: 25px auto;
+}
+
+#featured .month {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#featured .month div {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#featured .month h4 {
+    margin-top: 10px;
+}
+#featured .month .four, .five {
+    margin-top: 45px;
+} 
+#featured .month .first {
+    background-image: url('../images/berryblitz.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#featured .month .two {
+    background-image: url('../images/spiced-rum.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#featured .month .three {
+    background-image: url('../images/donut.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#featured .month .four {
+    background-image: url('../images/donut.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#featured .month .five {
+    background-image: url('../images/bedford-bizarre.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#locations {
+    margin-top: 70px ;
+    height: 660px;
+    background-image: url('../images/locations-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#locations h2 {
+    padding-top: 50px;
+}
+
+#locations .container {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#locations .downtown {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+#locations .eastbayside {
+    width: 300px;
+    margin-left: 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+#locations .oakdale {
+    width: 300px;
+    margin-left: 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+footer .address {
+    height: 200px;
+    margin: 0;
+}
+
+footer h4 {
+    text-align: left;
+}
